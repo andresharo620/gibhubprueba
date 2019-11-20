@@ -8,8 +8,9 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+
 - task: Docker@2
   inputs:
-    command: 'build'
-    Dockerfile: '**/Dockerfile'
+    command: 'buil'
+    Dockerfile: 'WebApplication1/Dockerfile'
     buildContext: ''
