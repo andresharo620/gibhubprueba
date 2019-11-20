@@ -11,6 +11,6 @@ pool:
 
 - task: Docker@2
   inputs:
-    command: 'buil'
-    Dockerfile: 'WebApplication1/Dockerfile'
+    command: 'build'
+    Dockerfile: '**/Dockerfile'
     buildContext: ''
